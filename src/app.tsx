@@ -14,7 +14,7 @@ function App() {
       const cube = new THREE.Mesh(geometry, material);
       // 把物体添加进场景中
       scene.add(cube);
-
+ 
       //创建光源
       // 环境光
       const ambientLight = new THREE.AmbientLight(0x4444);
