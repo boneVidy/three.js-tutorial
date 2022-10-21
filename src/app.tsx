@@ -3,7 +3,7 @@ import * as THREE from 'three'
 
 function App() {
   useEffect(() => {
-      /** 创建场景 */
+      /**  创建场景 */
       const scene = new THREE.Scene();
 
       // 创建一个立方缓冲几何体
